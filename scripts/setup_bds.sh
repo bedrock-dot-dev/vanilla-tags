@@ -21,8 +21,8 @@ MODULE_UUID=$(uuidgen | tr '[:upper:]' '[:lower:]')
 mkdir -p bds/behavior_packs/vanilla-tags/scripts
 jq --arg h "$HEADER_UUID" --arg m "$MODULE_UUID" \
   '.header.uuid = $h | .modules[0].uuid = $m' \
-  bp/manifest.json > bds/behavior_packs/vanilla-tags/manifest.json
-cp bp/scripts/main.js bds/behavior_packs/vanilla-tags/scripts/
+  scripts/bp/manifest.json > bds/behavior_packs/vanilla-tags/manifest.json
+cp scripts/bp/scripts/main.js bds/behavior_packs/vanilla-tags/scripts/
 
 # setup bds
 echo "eula=true" > bds/eula.txt
