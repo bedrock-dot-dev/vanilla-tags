@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+if [ "${CHANNEL:-stable}" = "preview" ]; then
+  DL_TYPE="serverBedrockPreviewLinux"
+else
+  DL_TYPE="serverBedrockLinux"
+fi
+
 URL=$(curl -s https://net-secondary.web.minecraft-services.net/api/v1.0/download/links \
-  | jq -r '.result.links[] | select(.downloadType=="serverBedrockLinux") | .downloadUrl')
+  | jq -r ".result.links[] | select(.downloadType==\"$DL_TYPE\") | .downloadUrl")
 echo "Downloading $URL"
 curl --http1.1 -L -A "Mozilla/5.0" "$URL" -o bds.zip
 unzip -q bds.zip -d bds
