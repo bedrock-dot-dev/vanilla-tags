@@ -1,6 +1,6 @@
 # Vanilla Tags
 
-Vanilla item and block tags for Bedrock, automatically extracted.
+Vanilla item and block tags for Bedrock, automatically extracted with a Script.
 
 Each [release](https://github.com/bedrock-dot-dev/vanilla-tags/releases) is tagged with the BDS version and includes:
 
