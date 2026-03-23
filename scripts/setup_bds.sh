@@ -9,7 +9,11 @@ fi
 
 URL=$(curl -s https://net-secondary.web.minecraft-services.net/api/v1.0/download/links \
   | jq -r ".result.links[] | select(.downloadType==\"$DL_TYPE\") | .downloadUrl")
-echo "Downloading $URL"
+VERSION=$(echo "$URL" | sed 's/.*bedrock-server-\([^/]*\)\.zip/\1/')
+echo "Downloading $URL (version $VERSION)"
+if [ -n "${GITHUB_OUTPUT:-}" ]; then
+  echo "bds_version=$VERSION" >> "$GITHUB_OUTPUT"
+fi
 curl --http1.1 -L -A "Mozilla/5.0" "$URL" -o bds.zip
 unzip -q bds.zip -d bds
 chmod +x bds/bedrock_server
