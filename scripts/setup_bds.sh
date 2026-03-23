@@ -4,7 +4,7 @@ set -euo pipefail
 URL=$(curl -s https://net-secondary.web.minecraft-services.net/api/v1.0/download/links \
   | jq -r '.result.links[] | select(.downloadType=="serverBedrockLinux") | .downloadUrl')
 echo "Downloading $URL"
-curl --http1.1 -L "$URL" -o bds.zip
+curl --http1.1 -L -A "Mozilla/5.0" "$URL" -o bds.zip
 unzip -q bds.zip -d bds
 chmod +x bds/bedrock_server
 
