@@ -3,11 +3,14 @@ name: Generate
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Install dependencies
         run: sudo apt-get install -y unzip jq
@@ -16,12 +19,31 @@ jobs:
         run: bash scripts/setup_bds.sh
 
       - name: Extract tags
+        id: extract
         run: python3 scripts/extract_tags.py
 
-      - name: Upload tags
-        uses: actions/upload-artifact@v4
+      - name: Upload artifact
+        uses: actions/upload-artifact@v6
         with:
           name: bedrock-tags
           path: |
             items.json
             blocks.json
+
+      - name: Check for existing release
+        id: check
+        run: |
+          if gh release view "v${{ steps.extract.outputs.bds_version }}" &>/dev/null; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Create release
+        if: steps.check.outputs.exists == 'false'
+        run: bash scripts/publish_release.sh
+        env:
+          BDS_VERSION: ${{ steps.extract.outputs.bds_version }}
+          GH_TOKEN: ${{ github.token }}
