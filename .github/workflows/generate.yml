@@ -1,0 +1,27 @@
+name: Generate
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get install -y unzip jq
+
+      - name: Set up BDS
+        run: bash scripts/setup_bds.sh
+
+      - name: Extract tags
+        run: python3 scripts/extract_tags.py
+
+      - name: Upload tags
+        uses: actions/upload-artifact@v4
+        with:
+          name: bedrock-tags
+          path: |
+            items.json
+            blocks.json
