@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "name": "Vanilla Tags",
-    "description": "Extracts vanilla item tags via the Scripting API",
+    "description": "Extracts tags via the Scripting API",
     "uuid": "00000000-0000-0000-0000-000000000000",
     "version": [1, 0, 0],
     "min_engine_version": [1, 20, 0]

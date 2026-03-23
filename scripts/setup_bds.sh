@@ -14,7 +14,7 @@ echo "Downloading $URL (version $VERSION)"
 if [ -n "${GITHUB_OUTPUT:-}" ]; then
   echo "bds_version=$VERSION" >> "$GITHUB_OUTPUT"
 fi
-curl --http1.1 -L -A "Mozilla/5.0" "$URL" -o bds.zip
+curl -L -A "Mozilla/5.0" "$URL" -o bds.zip
 unzip -q bds.zip -d bds
 chmod +x bds/bedrock_server
 
