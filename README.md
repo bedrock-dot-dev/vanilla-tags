@@ -1,6 +1,6 @@
 # Vanilla Tags
 
-Vanilla item and block tags for Bedrock, automatically extracted with a Script.
+Vanilla block and item tags for Bedrock.
 
 ## Latest Data
 
@@ -8,17 +8,17 @@ Vanilla item and block tags for Bedrock, automatically extracted with a Script.
 
 | File | Channel |
 |------|---------|
-| [`stable/items.json`](stable/items.json) | Latest stable |
-| [`stable/blocks.json`](stable/blocks.json) | Latest stable |
-| [`preview/items.json`](preview/items.json) | Latest preview |
-| [`preview/blocks.json`](preview/blocks.json) | Latest preview |
+| [`stable/items.json`](stable/items.json) | Latest stable item tags |
+| [`stable/blocks.json`](stable/blocks.json) | Latest stable block tags |
+| [`preview/items.json`](preview/items.json) | Latest preview item tags |
+| [`preview/blocks.json`](preview/blocks.json) | Latest preview block tags |
 
 ## Releases
 
-Each [release](https://github.com/bedrock-dot-dev/vanilla-tags/releases) is tagged with the BDS version:
+Each [release](https://github.com/bedrock-dot-dev/vanilla-tags/releases) is tagged with the BDS version. They contain the following files:
 
-- `items.json` — map of tag -> item IDs
-- `blocks.json` — map of tag -> block entries (ID + default block states)
+- `items.json` - map of tag -> item IDs
+- `blocks.json` - map of tag -> block entries (ID + default block states)
 
 ## License
 
