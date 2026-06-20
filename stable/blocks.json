@@ -4869,7 +4869,9 @@
     },
     {
       "id": "minecraft:potent_sulfur",
-      "states": {}
+      "states": {
+        "potent_sulfur_state": "dry"
+      }
     },
     {
       "id": "minecraft:prismarine",
@@ -5527,6 +5529,13 @@
       "id": "minecraft:sulfur_slab",
       "states": {
         "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:sulfur_spike",
+      "states": {
+        "dripstone_thickness": "tip",
+        "hanging": true
       }
     },
     {
