@@ -467,6 +467,463 @@
       "states": {}
     }
   ],
+  "minecraft:cornerable_stairs": [
+    {
+      "id": "minecraft:acacia_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:andesite_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:bamboo_mosaic_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:bamboo_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:birch_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:blackstone_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:cherry_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:cinnabar_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:cinnabar_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:cobbled_deepslate_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:crimson_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:cut_copper_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:dark_oak_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:dark_prismarine_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:deepslate_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:deepslate_tile_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:diorite_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:end_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:exposed_cut_copper_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:granite_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:jungle_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:mangrove_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:mossy_cobblestone_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:mossy_stone_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:mud_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:nether_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:normal_stone_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:oak_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:oxidized_cut_copper_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:pale_oak_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_andesite_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_blackstone_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_blackstone_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_cinnabar_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_deepslate_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_diorite_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_granite_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_sulfur_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_tuff_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:prismarine_bricks_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:prismarine_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:purpur_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:quartz_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:red_nether_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:red_sandstone_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:resin_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:sandstone_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:smooth_quartz_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:smooth_red_sandstone_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:smooth_sandstone_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:spruce_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:stone_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:stone_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:sulfur_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:sulfur_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:tuff_brick_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:tuff_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:warped_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:waxed_cut_copper_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:waxed_exposed_cut_copper_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:waxed_oxidized_cut_copper_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:waxed_weathered_cut_copper_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:weathered_cut_copper_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    }
+  ],
   "minecraft:crop": [
     {
       "id": "minecraft:beetroot",
@@ -1917,6 +2374,112 @@
       }
     },
     {
+      "id": "minecraft:poplar_button",
+      "states": {
+        "facing_direction": 0,
+        "button_pressed_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_door",
+      "states": {
+        "minecraft:cardinal_direction": "south",
+        "open_bit": false,
+        "upper_block_bit": false,
+        "door_hinge_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:poplar_fence",
+      "states": {}
+    },
+    {
+      "id": "minecraft:poplar_fence_gate",
+      "states": {
+        "open_bit": false,
+        "minecraft:cardinal_direction": "south",
+        "in_wall_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_hanging_sign",
+      "states": {
+        "hanging": false,
+        "ground_sign_direction": 0,
+        "facing_direction": 0,
+        "attached_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_log",
+      "states": {
+        "pillar_axis": "y"
+      }
+    },
+    {
+      "id": "minecraft:poplar_planks",
+      "states": {}
+    },
+    {
+      "id": "minecraft:poplar_pressure_plate",
+      "states": {
+        "redstone_signal": 0
+      }
+    },
+    {
+      "id": "minecraft:poplar_shelf",
+      "states": {
+        "minecraft:cardinal_direction": "south",
+        "powered_shelf_type": 0,
+        "powered_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:poplar_stairs",
+      "states": {
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_standing_sign",
+      "states": {
+        "ground_sign_direction": 0
+      }
+    },
+    {
+      "id": "minecraft:poplar_trapdoor",
+      "states": {
+        "upside_down_bit": false,
+        "open_bit": false,
+        "direction": 0
+      }
+    },
+    {
+      "id": "minecraft:poplar_wall_sign",
+      "states": {
+        "facing_direction": 0
+      }
+    },
+    {
+      "id": "minecraft:poplar_wood",
+      "states": {
+        "pillar_axis": "y"
+      }
+    },
+    {
       "id": "minecraft:pumpkin",
       "states": {
         "minecraft:cardinal_direction": "south",
@@ -2199,6 +2762,18 @@
     },
     {
       "id": "minecraft:stripped_pale_oak_wood",
+      "states": {
+        "pillar_axis": "y"
+      }
+    },
+    {
+      "id": "minecraft:stripped_poplar_log",
+      "states": {
+        "pillar_axis": "y"
+      }
+    },
+    {
+      "id": "minecraft:stripped_poplar_wood",
       "states": {
         "pillar_axis": "y"
       }
@@ -2497,6 +3072,13 @@
       }
     },
     {
+      "id": "minecraft:orange_poplar_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
       "id": "minecraft:pale_moss_block",
       "states": {}
     },
@@ -2512,6 +3094,13 @@
     },
     {
       "id": "minecraft:pale_oak_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:red_poplar_leaves",
       "states": {
         "update_bit": false,
         "persistent_bit": false
@@ -2577,6 +3166,13 @@
       "id": "minecraft:wet_sponge",
       "states": {
         "sponge_type": "wet"
+      }
+    },
+    {
+      "id": "minecraft:yellow_poplar_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
       }
     }
   ],
@@ -7081,6 +7677,14 @@
       }
     },
     {
+      "id": "minecraft:poplar_shelf",
+      "states": {
+        "minecraft:cardinal_direction": "south",
+        "powered_shelf_type": 0,
+        "powered_bit": false
+      }
+    },
+    {
       "id": "minecraft:spruce_shelf",
       "states": {
         "minecraft:cardinal_direction": "south",
@@ -7470,6 +8074,31 @@
     },
     {
       "id": "minecraft:pale_oak_trapdoor",
+      "states": {
+        "upside_down_bit": false,
+        "open_bit": false,
+        "direction": 0
+      }
+    },
+    {
+      "id": "minecraft:poplar_door",
+      "states": {
+        "minecraft:cardinal_direction": "south",
+        "open_bit": false,
+        "upper_block_bit": false,
+        "door_hinge_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_fence_gate",
+      "states": {
+        "open_bit": false,
+        "minecraft:cardinal_direction": "south",
+        "in_wall_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_trapdoor",
       "states": {
         "upside_down_bit": false,
         "open_bit": false,
@@ -8755,6 +9384,27 @@
       }
     },
     {
+      "id": "minecraft:poplar_hanging_sign",
+      "states": {
+        "hanging": false,
+        "ground_sign_direction": 0,
+        "facing_direction": 0,
+        "attached_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_standing_sign",
+      "states": {
+        "ground_sign_direction": 0
+      }
+    },
+    {
+      "id": "minecraft:poplar_wall_sign",
+      "states": {
+        "facing_direction": 0
+      }
+    },
+    {
       "id": "minecraft:spruce_hanging_sign",
       "states": {
         "hanging": false,
@@ -8908,6 +9558,14 @@
     },
     {
       "id": "minecraft:pale_oak_trapdoor",
+      "states": {
+        "upside_down_bit": false,
+        "open_bit": false,
+        "direction": 0
+      }
+    },
+    {
+      "id": "minecraft:poplar_trapdoor",
       "states": {
         "upside_down_bit": false,
         "open_bit": false,
@@ -9773,6 +10431,68 @@
       }
     },
     {
+      "id": "minecraft:poplar_button",
+      "states": {
+        "facing_direction": 0,
+        "button_pressed_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_fence_gate",
+      "states": {
+        "open_bit": false,
+        "minecraft:cardinal_direction": "south",
+        "in_wall_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_hanging_sign",
+      "states": {
+        "hanging": false,
+        "ground_sign_direction": 0,
+        "facing_direction": 0,
+        "attached_bit": false
+      }
+    },
+    {
+      "id": "minecraft:poplar_log",
+      "states": {
+        "pillar_axis": "y"
+      }
+    },
+    {
+      "id": "minecraft:poplar_pressure_plate",
+      "states": {
+        "redstone_signal": 0
+      }
+    },
+    {
+      "id": "minecraft:poplar_standing_sign",
+      "states": {
+        "ground_sign_direction": 0
+      }
+    },
+    {
+      "id": "minecraft:poplar_trapdoor",
+      "states": {
+        "upside_down_bit": false,
+        "open_bit": false,
+        "direction": 0
+      }
+    },
+    {
+      "id": "minecraft:poplar_wall_sign",
+      "states": {
+        "facing_direction": 0
+      }
+    },
+    {
+      "id": "minecraft:poplar_wood",
+      "states": {
+        "pillar_axis": "y"
+      }
+    },
+    {
       "id": "minecraft:smithing_table",
       "states": {}
     },
@@ -9995,6 +10715,18 @@
     },
     {
       "id": "minecraft:stripped_pale_oak_wood",
+      "states": {
+        "pillar_axis": "y"
+      }
+    },
+    {
+      "id": "minecraft:stripped_poplar_log",
+      "states": {
+        "pillar_axis": "y"
+      }
+    },
+    {
+      "id": "minecraft:stripped_poplar_wood",
       "states": {
         "pillar_axis": "y"
       }
