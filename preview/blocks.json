@@ -351,328 +351,6 @@
       "states": {}
     }
   ],
-  "is_shears_item_destructible": [
-    {
-      "id": "minecraft:black_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:black_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:black_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:blue_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:blue_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:blue_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:brown_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:brown_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:brown_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:cyan_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:cyan_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:cyan_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:gray_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:gray_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:gray_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:green_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:green_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:green_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:light_blue_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:light_blue_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:light_blue_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:light_gray_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:light_gray_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:light_gray_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:lime_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:lime_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:lime_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:magenta_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:magenta_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:magenta_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:orange_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:orange_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:orange_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:pink_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:pink_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:pink_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:purple_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:purple_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:purple_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:red_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:red_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:red_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:white_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:white_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:white_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    },
-    {
-      "id": "minecraft:yellow_wool_double_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:yellow_wool_slab",
-      "states": {
-        "minecraft:vertical_half": "bottom"
-      }
-    },
-    {
-      "id": "minecraft:yellow_wool_stairs",
-      "states": {
-        "minecraft:corner": "none",
-        "weirdo_direction": 0,
-        "upside_down_bit": false
-      }
-    }
-  ],
   "jungle": [
     {
       "id": "minecraft:jungle_log",
@@ -2343,7 +2021,14 @@
     },
     {
       "id": "minecraft:chorus_plant",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_up": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_down": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:cocoa",
@@ -3913,6 +3598,14 @@
         "update_bit": false,
         "persistent_bit": false,
         "old_leaf_type": "spruce"
+      }
+    },
+    {
+      "id": "minecraft:straw_bed",
+      "states": {
+        "occupied_bit": false,
+        "minecraft:cardinal_direction": "south",
+        "head_piece_bit": false
       }
     },
     {
@@ -7950,8 +7643,328 @@
   ],
   "minecraft:is_shears_item_destructible": [
     {
+      "id": "minecraft:black_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:black_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:black_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:blue_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:blue_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:blue_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:brown_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:brown_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:brown_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:cyan_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:cyan_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:cyan_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:gray_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:gray_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:gray_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:green_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:green_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:green_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:light_blue_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_blue_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_blue_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:light_gray_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_gray_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_gray_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:lime_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:lime_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:lime_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:magenta_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:magenta_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:magenta_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:orange_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:orange_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:orange_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:pink_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:pink_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:pink_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:purple_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:purple_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:purple_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:red_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:red_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:red_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
       "id": "minecraft:web",
       "states": {}
+    },
+    {
+      "id": "minecraft:white_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:white_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:white_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:yellow_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:yellow_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:yellow_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
     }
   ],
   "minecraft:is_shovel_item_destructible": [
@@ -8157,6 +8170,112 @@
     {
       "id": "minecraft:web",
       "states": {}
+    }
+  ],
+  "minecraft:leaves": [
+    {
+      "id": "minecraft:acacia_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "new_leaf_type": "acacia"
+      }
+    },
+    {
+      "id": "minecraft:azalea_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:azalea_leaves_flowered",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:birch_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "old_leaf_type": "birch"
+      }
+    },
+    {
+      "id": "minecraft:cherry_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:dark_oak_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "new_leaf_type": "dark_oak"
+      }
+    },
+    {
+      "id": "minecraft:jungle_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "old_leaf_type": "jungle"
+      }
+    },
+    {
+      "id": "minecraft:mangrove_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:oak_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "old_leaf_type": "oak"
+      }
+    },
+    {
+      "id": "minecraft:orange_poplar_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:pale_oak_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:red_poplar_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:spruce_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "old_leaf_type": "spruce"
+      }
+    },
+    {
+      "id": "minecraft:yellow_poplar_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
     }
   ],
   "minecraft:stone_tier_destructible": [
