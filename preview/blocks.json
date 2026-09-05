@@ -2021,7 +2021,14 @@
     },
     {
       "id": "minecraft:chorus_plant",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_up": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_down": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:cocoa",
