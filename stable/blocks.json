@@ -414,11 +414,21 @@
     },
     {
       "id": "minecraft:copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:exposed_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:gold_block",
@@ -426,7 +436,12 @@
     },
     {
       "id": "minecraft:iron_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:iron_block",
@@ -444,33 +459,64 @@
     },
     {
       "id": "minecraft:oxidized_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:waxed_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:waxed_exposed_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:waxed_oxidized_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:waxed_weathered_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:weathered_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     }
   ],
   "minecraft:cornerable_stairs": [
     {
       "id": "minecraft:acacia_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -478,6 +524,7 @@
     {
       "id": "minecraft:andesite_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -485,6 +532,7 @@
     {
       "id": "minecraft:bamboo_mosaic_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -492,6 +540,7 @@
     {
       "id": "minecraft:bamboo_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -499,6 +548,23 @@
     {
       "id": "minecraft:birch_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:black_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:black_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -506,6 +572,23 @@
     {
       "id": "minecraft:blackstone_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:blue_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:blue_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -513,6 +596,23 @@
     {
       "id": "minecraft:brick_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:brown_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:brown_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -520,6 +620,7 @@
     {
       "id": "minecraft:cherry_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -527,6 +628,7 @@
     {
       "id": "minecraft:cinnabar_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -534,6 +636,7 @@
     {
       "id": "minecraft:cinnabar_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -541,6 +644,7 @@
     {
       "id": "minecraft:cobbled_deepslate_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -548,6 +652,7 @@
     {
       "id": "minecraft:crimson_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -555,6 +660,23 @@
     {
       "id": "minecraft:cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:cyan_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:cyan_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -562,6 +684,7 @@
     {
       "id": "minecraft:dark_oak_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -569,6 +692,7 @@
     {
       "id": "minecraft:dark_prismarine_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -576,6 +700,7 @@
     {
       "id": "minecraft:deepslate_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -583,6 +708,7 @@
     {
       "id": "minecraft:deepslate_tile_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -590,6 +716,7 @@
     {
       "id": "minecraft:diorite_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -597,6 +724,7 @@
     {
       "id": "minecraft:end_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -604,6 +732,7 @@
     {
       "id": "minecraft:exposed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -611,6 +740,39 @@
     {
       "id": "minecraft:granite_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:gray_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:gray_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:green_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:green_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -618,6 +780,71 @@
     {
       "id": "minecraft:jungle_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:light_blue_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:light_blue_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:light_gray_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:light_gray_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:lime_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:lime_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:magenta_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:magenta_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -625,6 +852,7 @@
     {
       "id": "minecraft:mangrove_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -632,6 +860,7 @@
     {
       "id": "minecraft:mossy_cobblestone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -639,6 +868,7 @@
     {
       "id": "minecraft:mossy_stone_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -646,6 +876,7 @@
     {
       "id": "minecraft:mud_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -653,6 +884,7 @@
     {
       "id": "minecraft:nether_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -660,6 +892,7 @@
     {
       "id": "minecraft:normal_stone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -667,6 +900,23 @@
     {
       "id": "minecraft:oak_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:orange_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:orange_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -674,6 +924,7 @@
     {
       "id": "minecraft:oxidized_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -681,6 +932,23 @@
     {
       "id": "minecraft:pale_oak_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:pink_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:pink_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -688,6 +956,7 @@
     {
       "id": "minecraft:polished_andesite_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -695,6 +964,7 @@
     {
       "id": "minecraft:polished_blackstone_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -702,6 +972,7 @@
     {
       "id": "minecraft:polished_blackstone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -709,6 +980,7 @@
     {
       "id": "minecraft:polished_cinnabar_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -716,6 +988,7 @@
     {
       "id": "minecraft:polished_deepslate_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -723,6 +996,7 @@
     {
       "id": "minecraft:polished_diorite_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -730,6 +1004,7 @@
     {
       "id": "minecraft:polished_granite_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -737,6 +1012,7 @@
     {
       "id": "minecraft:polished_sulfur_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -744,6 +1020,7 @@
     {
       "id": "minecraft:polished_tuff_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -751,6 +1028,7 @@
     {
       "id": "minecraft:poplar_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -758,6 +1036,7 @@
     {
       "id": "minecraft:prismarine_bricks_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -765,6 +1044,23 @@
     {
       "id": "minecraft:prismarine_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:purple_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:purple_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -772,6 +1068,7 @@
     {
       "id": "minecraft:purpur_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -779,6 +1076,15 @@
     {
       "id": "minecraft:quartz_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:red_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -786,6 +1092,7 @@
     {
       "id": "minecraft:red_nether_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -793,6 +1100,15 @@
     {
       "id": "minecraft:red_sandstone_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:red_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -800,6 +1116,7 @@
     {
       "id": "minecraft:resin_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -807,6 +1124,7 @@
     {
       "id": "minecraft:sandstone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -814,6 +1132,7 @@
     {
       "id": "minecraft:smooth_quartz_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -821,6 +1140,7 @@
     {
       "id": "minecraft:smooth_red_sandstone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -828,6 +1148,7 @@
     {
       "id": "minecraft:smooth_sandstone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -835,6 +1156,7 @@
     {
       "id": "minecraft:spruce_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -842,6 +1164,7 @@
     {
       "id": "minecraft:stone_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -849,6 +1172,7 @@
     {
       "id": "minecraft:stone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -856,6 +1180,7 @@
     {
       "id": "minecraft:sulfur_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -863,6 +1188,7 @@
     {
       "id": "minecraft:sulfur_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -870,6 +1196,7 @@
     {
       "id": "minecraft:tuff_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -877,6 +1204,7 @@
     {
       "id": "minecraft:tuff_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -884,6 +1212,7 @@
     {
       "id": "minecraft:warped_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -891,6 +1220,7 @@
     {
       "id": "minecraft:waxed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -898,6 +1228,7 @@
     {
       "id": "minecraft:waxed_exposed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -905,6 +1236,7 @@
     {
       "id": "minecraft:waxed_oxidized_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -912,6 +1244,7 @@
     {
       "id": "minecraft:waxed_weathered_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -919,6 +1252,39 @@
     {
       "id": "minecraft:weathered_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:white_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:white_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:yellow_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:yellow_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -1084,6 +1450,10 @@
     {
       "id": "minecraft:acacia_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "acacia"
       }
     },
@@ -1143,6 +1513,7 @@
     {
       "id": "minecraft:acacia_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -1215,7 +1586,12 @@
     },
     {
       "id": "minecraft:bamboo_fence",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:bamboo_fence_gate",
@@ -1256,6 +1632,7 @@
     {
       "id": "minecraft:bamboo_mosaic_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -1288,6 +1665,7 @@
     {
       "id": "minecraft:bamboo_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -1370,6 +1748,10 @@
     {
       "id": "minecraft:birch_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "birch"
       }
     },
@@ -1429,6 +1811,7 @@
     {
       "id": "minecraft:birch_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -1526,7 +1909,12 @@
     },
     {
       "id": "minecraft:cherry_fence",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:cherry_fence_gate",
@@ -1580,6 +1968,7 @@
     {
       "id": "minecraft:cherry_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -1686,7 +2075,12 @@
     },
     {
       "id": "minecraft:crimson_fence",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:crimson_fence_gate",
@@ -1740,6 +2134,7 @@
     {
       "id": "minecraft:crimson_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -1798,6 +2193,10 @@
     {
       "id": "minecraft:dark_oak_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "dark_oak"
       }
     },
@@ -1857,6 +2256,7 @@
     {
       "id": "minecraft:dark_oak_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -1952,6 +2352,10 @@
     {
       "id": "minecraft:jungle_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "jungle"
       }
     },
@@ -2011,6 +2415,7 @@
     {
       "id": "minecraft:jungle_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -2096,7 +2501,12 @@
     },
     {
       "id": "minecraft:mangrove_fence",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:mangrove_fence_gate",
@@ -2154,6 +2564,7 @@
     {
       "id": "minecraft:mangrove_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -2209,6 +2620,10 @@
     {
       "id": "minecraft:oak_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "oak"
       }
     },
@@ -2253,6 +2668,7 @@
     {
       "id": "minecraft:oak_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -2290,7 +2706,12 @@
     },
     {
       "id": "minecraft:pale_oak_fence",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:pale_oak_fence_gate",
@@ -2343,6 +2764,7 @@
     {
       "id": "minecraft:pale_oak_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -2397,7 +2819,12 @@
     },
     {
       "id": "minecraft:poplar_fence",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:poplar_fence_gate",
@@ -2449,6 +2876,7 @@
     {
       "id": "minecraft:poplar_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -2539,6 +2967,10 @@
     {
       "id": "minecraft:spruce_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "spruce"
       }
     },
@@ -2598,6 +3030,7 @@
     {
       "id": "minecraft:spruce_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -2863,7 +3296,12 @@
     },
     {
       "id": "minecraft:warped_fence",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:warped_fence_gate",
@@ -2917,6 +3355,7 @@
     {
       "id": "minecraft:warped_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -3155,6 +3594,14 @@
       }
     },
     {
+      "id": "minecraft:straw_bed",
+      "states": {
+        "occupied_bit": false,
+        "minecraft:cardinal_direction": "south",
+        "head_piece_bit": false
+      }
+    },
+    {
       "id": "minecraft:target",
       "states": {}
     },
@@ -3224,6 +3671,7 @@
     {
       "id": "minecraft:andesite_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -3268,6 +3716,26 @@
       }
     },
     {
+      "id": "minecraft:black_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:black_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:black_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
       "id": "minecraft:black_glazed_terracotta",
       "states": {
         "facing_direction": 0
@@ -3306,6 +3774,7 @@
     {
       "id": "minecraft:blackstone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -3331,6 +3800,26 @@
       "id": "minecraft:blue_concrete",
       "states": {
         "color": "blue"
+      }
+    },
+    {
+      "id": "minecraft:blue_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:blue_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:blue_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -3410,6 +3899,7 @@
     {
       "id": "minecraft:brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -3429,6 +3919,26 @@
       "id": "minecraft:brown_concrete",
       "states": {
         "color": "brown"
+      }
+    },
+    {
+      "id": "minecraft:brown_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:brown_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:brown_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -3563,6 +4073,7 @@
     {
       "id": "minecraft:cinnabar_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -3596,6 +4107,7 @@
     {
       "id": "minecraft:cinnabar_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -3639,6 +4151,7 @@
     {
       "id": "minecraft:cobbled_deepslate_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -3697,7 +4210,12 @@
     },
     {
       "id": "minecraft:copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:copper_block",
@@ -3812,6 +4330,7 @@
     {
       "id": "minecraft:cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -3867,6 +4386,26 @@
       }
     },
     {
+      "id": "minecraft:cyan_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:cyan_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:cyan_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
       "id": "minecraft:cyan_glazed_terracotta",
       "states": {
         "facing_direction": 0
@@ -3917,6 +4456,7 @@
     {
       "id": "minecraft:dark_prismarine_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -3979,6 +4519,7 @@
     {
       "id": "minecraft:deepslate_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -4046,6 +4587,7 @@
     {
       "id": "minecraft:deepslate_tile_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -4126,6 +4668,7 @@
     {
       "id": "minecraft:diorite_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -4188,6 +4731,7 @@
     {
       "id": "minecraft:end_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -4244,7 +4788,12 @@
     },
     {
       "id": "minecraft:exposed_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:exposed_copper_bulb",
@@ -4313,6 +4862,7 @@
     {
       "id": "minecraft:exposed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -4393,6 +4943,7 @@
     {
       "id": "minecraft:granite_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -4412,6 +4963,26 @@
       "id": "minecraft:gray_concrete",
       "states": {
         "color": "gray"
+      }
+    },
+    {
+      "id": "minecraft:gray_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:gray_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:gray_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -4436,6 +5007,26 @@
       "id": "minecraft:green_concrete",
       "states": {
         "color": "green"
+      }
+    },
+    {
+      "id": "minecraft:green_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:green_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:green_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -4539,7 +5130,12 @@
     },
     {
       "id": "minecraft:iron_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:iron_block",
@@ -4608,6 +5204,26 @@
       }
     },
     {
+      "id": "minecraft:light_blue_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_blue_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_blue_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
       "id": "minecraft:light_blue_glazed_terracotta",
       "states": {
         "facing_direction": 0
@@ -4629,6 +5245,26 @@
       "id": "minecraft:light_gray_concrete",
       "states": {
         "color": "silver"
+      }
+    },
+    {
+      "id": "minecraft:light_gray_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_gray_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_gray_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -4660,6 +5296,26 @@
       "id": "minecraft:lime_concrete",
       "states": {
         "color": "lime"
+      }
+    },
+    {
+      "id": "minecraft:lime_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:lime_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:lime_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -4717,6 +5373,26 @@
       "id": "minecraft:magenta_concrete",
       "states": {
         "color": "magenta"
+      }
+    },
+    {
+      "id": "minecraft:magenta_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:magenta_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:magenta_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -4782,6 +5458,7 @@
     {
       "id": "minecraft:mossy_cobblestone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -4816,6 +5493,7 @@
     {
       "id": "minecraft:mossy_stone_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -4854,6 +5532,7 @@
     {
       "id": "minecraft:mud_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -4886,7 +5565,12 @@
     },
     {
       "id": "minecraft:nether_brick_fence",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:nether_brick_slab",
@@ -4899,6 +5583,7 @@
     {
       "id": "minecraft:nether_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -4949,6 +5634,7 @@
     {
       "id": "minecraft:normal_stone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -4969,6 +5655,26 @@
       "id": "minecraft:orange_concrete",
       "states": {
         "color": "orange"
+      }
+    },
+    {
+      "id": "minecraft:orange_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:orange_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:orange_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -4999,7 +5705,12 @@
     },
     {
       "id": "minecraft:oxidized_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:oxidized_copper_bulb",
@@ -5068,6 +5779,7 @@
     {
       "id": "minecraft:oxidized_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5114,6 +5826,26 @@
       "id": "minecraft:pink_concrete",
       "states": {
         "color": "pink"
+      }
+    },
+    {
+      "id": "minecraft:pink_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:pink_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:pink_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -5178,6 +5910,7 @@
     {
       "id": "minecraft:polished_andesite_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5209,6 +5942,7 @@
     {
       "id": "minecraft:polished_blackstone_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5257,6 +5991,7 @@
     {
       "id": "minecraft:polished_blackstone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5290,6 +6025,7 @@
     {
       "id": "minecraft:polished_cinnabar_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5325,6 +6061,7 @@
     {
       "id": "minecraft:polished_deepslate_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5364,6 +6101,7 @@
     {
       "id": "minecraft:polished_diorite_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5393,6 +6131,7 @@
     {
       "id": "minecraft:polished_granite_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5416,6 +6155,7 @@
     {
       "id": "minecraft:polished_sulfur_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5449,6 +6189,7 @@
     {
       "id": "minecraft:polished_tuff_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5500,6 +6241,7 @@
     {
       "id": "minecraft:prismarine_bricks_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5523,6 +6265,7 @@
     {
       "id": "minecraft:prismarine_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5542,6 +6285,26 @@
       "id": "minecraft:purple_concrete",
       "states": {
         "color": "purple"
+      }
+    },
+    {
+      "id": "minecraft:purple_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:purple_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:purple_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -5595,6 +6358,7 @@
     {
       "id": "minecraft:purpur_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5640,6 +6404,7 @@
     {
       "id": "minecraft:quartz_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5666,6 +6431,26 @@
       "id": "minecraft:red_concrete",
       "states": {
         "color": "red"
+      }
+    },
+    {
+      "id": "minecraft:red_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:red_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:red_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -5697,6 +6482,7 @@
     {
       "id": "minecraft:red_nether_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5737,6 +6523,7 @@
     {
       "id": "minecraft:red_sandstone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5787,6 +6574,7 @@
     {
       "id": "minecraft:resin_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5836,6 +6624,7 @@
     {
       "id": "minecraft:sandstone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5901,6 +6690,7 @@
     {
       "id": "minecraft:smooth_quartz_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5930,6 +6720,7 @@
     {
       "id": "minecraft:smooth_red_sandstone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -5959,6 +6750,7 @@
     {
       "id": "minecraft:smooth_sandstone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6026,6 +6818,7 @@
     {
       "id": "minecraft:stone_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6063,6 +6856,7 @@
     {
       "id": "minecraft:stone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6097,6 +6891,7 @@
     {
       "id": "minecraft:sulfur_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6137,6 +6932,7 @@
     {
       "id": "minecraft:sulfur_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6177,6 +6973,7 @@
     {
       "id": "minecraft:tuff_brick_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6210,6 +7007,7 @@
     {
       "id": "minecraft:tuff_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6242,7 +7040,12 @@
     },
     {
       "id": "minecraft:waxed_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:waxed_copper_bulb",
@@ -6311,6 +7114,7 @@
     {
       "id": "minecraft:waxed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6332,7 +7136,12 @@
     },
     {
       "id": "minecraft:waxed_exposed_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:waxed_exposed_copper_bulb",
@@ -6401,6 +7210,7 @@
     {
       "id": "minecraft:waxed_exposed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6436,7 +7246,12 @@
     },
     {
       "id": "minecraft:waxed_oxidized_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:waxed_oxidized_copper_bulb",
@@ -6505,6 +7320,7 @@
     {
       "id": "minecraft:waxed_oxidized_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6533,7 +7349,12 @@
     },
     {
       "id": "minecraft:waxed_weathered_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:waxed_weathered_copper_bulb",
@@ -6602,6 +7423,7 @@
     {
       "id": "minecraft:waxed_weathered_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6630,7 +7452,12 @@
     },
     {
       "id": "minecraft:weathered_copper_bars",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:weathered_copper_bulb",
@@ -6699,6 +7526,7 @@
     {
       "id": "minecraft:weathered_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -6721,6 +7549,26 @@
       "id": "minecraft:white_concrete",
       "states": {
         "color": "white"
+      }
+    },
+    {
+      "id": "minecraft:white_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:white_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:white_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
       }
     },
     {
@@ -6748,6 +7596,26 @@
       }
     },
     {
+      "id": "minecraft:yellow_concrete_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:yellow_concrete_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:yellow_concrete_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
       "id": "minecraft:yellow_glazed_terracotta",
       "states": {
         "facing_direction": 0
@@ -6768,8 +7636,328 @@
   ],
   "minecraft:is_shears_item_destructible": [
     {
+      "id": "minecraft:black_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:black_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:black_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:blue_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:blue_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:blue_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:brown_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:brown_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:brown_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:cyan_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:cyan_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:cyan_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:gray_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:gray_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:gray_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:green_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:green_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:green_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:light_blue_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_blue_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_blue_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:light_gray_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_gray_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:light_gray_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:lime_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:lime_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:lime_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:magenta_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:magenta_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:magenta_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:orange_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:orange_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:orange_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:pink_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:pink_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:pink_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:purple_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:purple_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:purple_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:red_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:red_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:red_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
       "id": "minecraft:web",
       "states": {}
+    },
+    {
+      "id": "minecraft:white_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:white_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:white_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:yellow_wool_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:yellow_wool_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:yellow_wool_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
     }
   ],
   "minecraft:is_shovel_item_destructible": [
@@ -6977,6 +8165,112 @@
       "states": {}
     }
   ],
+  "minecraft:leaves": [
+    {
+      "id": "minecraft:acacia_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "new_leaf_type": "acacia"
+      }
+    },
+    {
+      "id": "minecraft:azalea_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:azalea_leaves_flowered",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:birch_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "old_leaf_type": "birch"
+      }
+    },
+    {
+      "id": "minecraft:cherry_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:dark_oak_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "new_leaf_type": "dark_oak"
+      }
+    },
+    {
+      "id": "minecraft:jungle_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "old_leaf_type": "jungle"
+      }
+    },
+    {
+      "id": "minecraft:mangrove_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:oak_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "old_leaf_type": "oak"
+      }
+    },
+    {
+      "id": "minecraft:orange_poplar_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:pale_oak_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:red_poplar_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    },
+    {
+      "id": "minecraft:spruce_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false,
+        "old_leaf_type": "spruce"
+      }
+    },
+    {
+      "id": "minecraft:yellow_poplar_leaves",
+      "states": {
+        "update_bit": false,
+        "persistent_bit": false
+      }
+    }
+  ],
   "minecraft:stone_tier_destructible": [
     {
       "id": "minecraft:chiseled_copper",
@@ -7029,6 +8323,7 @@
     {
       "id": "minecraft:cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -7099,6 +8394,7 @@
     {
       "id": "minecraft:exposed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -7187,6 +8483,7 @@
     {
       "id": "minecraft:oxidized_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -7260,6 +8557,7 @@
     {
       "id": "minecraft:waxed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -7318,6 +8616,7 @@
     {
       "id": "minecraft:waxed_exposed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -7390,6 +8689,7 @@
     {
       "id": "minecraft:waxed_oxidized_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -7455,6 +8755,7 @@
     {
       "id": "minecraft:waxed_weathered_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -7520,6 +8821,7 @@
     {
       "id": "minecraft:weathered_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -8815,6 +10117,7 @@
     {
       "id": "minecraft:stone_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -8863,6 +10166,7 @@
     {
       "id": "minecraft:cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -8909,6 +10213,7 @@
     {
       "id": "minecraft:exposed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -8951,6 +10256,7 @@
     {
       "id": "minecraft:oxidized_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -8997,6 +10303,7 @@
     {
       "id": "minecraft:waxed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -9039,6 +10346,7 @@
     {
       "id": "minecraft:waxed_exposed_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -9088,6 +10396,7 @@
     {
       "id": "minecraft:waxed_oxidized_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -9137,6 +10446,7 @@
     {
       "id": "minecraft:waxed_weathered_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -9179,6 +10489,7 @@
     {
       "id": "minecraft:weathered_cut_copper_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -9680,6 +10991,10 @@
     {
       "id": "minecraft:acacia_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "acacia"
       }
     },
@@ -9731,6 +11046,7 @@
     {
       "id": "minecraft:acacia_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -9849,6 +11165,10 @@
     {
       "id": "minecraft:birch_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "birch"
       }
     },
@@ -9900,6 +11220,7 @@
     {
       "id": "minecraft:birch_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -10032,6 +11353,10 @@
     {
       "id": "minecraft:dark_oak_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "dark_oak"
       }
     },
@@ -10083,6 +11408,7 @@
     {
       "id": "minecraft:dark_oak_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -10156,6 +11482,10 @@
     {
       "id": "minecraft:jungle_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "jungle"
       }
     },
@@ -10207,6 +11537,7 @@
     {
       "id": "minecraft:jungle_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -10319,6 +11650,10 @@
     {
       "id": "minecraft:oak_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "oak"
       }
     },
@@ -10355,6 +11690,7 @@
     {
       "id": "minecraft:oak_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
@@ -10524,6 +11860,10 @@
     {
       "id": "minecraft:spruce_fence",
       "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_north": false,
+        "minecraft:connection_south": false,
         "wood_type": "spruce"
       }
     },
@@ -10575,6 +11915,7 @@
     {
       "id": "minecraft:spruce_stairs",
       "states": {
+        "minecraft:corner": "none",
         "weirdo_direction": 0,
         "upside_down_bit": false
       }
