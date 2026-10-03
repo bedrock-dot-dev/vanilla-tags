@@ -5094,6 +5094,20 @@
       "states": {}
     },
     {
+      "id": "minecraft:ice_crystal",
+      "states": {
+        "minecraft:block_face": "up"
+      }
+    },
+    {
+      "id": "minecraft:icicle",
+      "states": {
+        "dripstone_thickness": "tip",
+        "hanging": true,
+        "attached_bit": false
+      }
+    },
+    {
       "id": "minecraft:infested_chiseled_stone_bricks",
       "states": {
         "monster_egg_stone_type": "chiseled_stone_brick"
