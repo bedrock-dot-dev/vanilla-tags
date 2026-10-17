@@ -2930,6 +2930,7 @@
     {
       "id": "minecraft:scaffolding",
       "states": {
+        "bottom": false,
         "stability_check": false,
         "stability": 0
       }
@@ -3920,6 +3921,12 @@
         "wall_connection_type_west": "none",
         "wall_post_bit": false,
         "wall_block_type": "brick"
+      }
+    },
+    {
+      "id": "minecraft:brittle_ice",
+      "states": {
+        "age": 0
       }
     },
     {
