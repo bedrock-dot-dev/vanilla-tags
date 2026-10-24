@@ -930,6 +930,14 @@
       }
     },
     {
+      "id": "minecraft:packed_ice_bricks_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
       "id": "minecraft:pale_oak_stairs",
       "states": {
         "minecraft:corner": "none",
@@ -5829,6 +5837,44 @@
     {
       "id": "minecraft:packed_ice",
       "states": {}
+    },
+    {
+      "id": "minecraft:packed_ice_bricks",
+      "states": {}
+    },
+    {
+      "id": "minecraft:packed_ice_bricks_chiseled",
+      "states": {}
+    },
+    {
+      "id": "minecraft:packed_ice_bricks_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:packed_ice_bricks_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:packed_ice_bricks_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:packed_ice_bricks_wall",
+      "states": {
+        "wall_connection_type_south": "none",
+        "wall_connection_type_east": "none",
+        "wall_connection_type_north": "none",
+        "wall_connection_type_west": "none",
+        "wall_post_bit": false
+      }
     },
     {
       "id": "minecraft:packed_mud",

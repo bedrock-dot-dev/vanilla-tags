@@ -895,6 +895,8 @@
   "minecraft:sulfur_cube_archetype_fast_sliding": [
     "minecraft:blue_ice",
     "minecraft:packed_ice",
+    "minecraft:packed_ice_bricks",
+    "minecraft:packed_ice_bricks_chiseled",
     "minecraft:snow"
   ],
   "minecraft:sulfur_cube_archetype_high_resistance": [
