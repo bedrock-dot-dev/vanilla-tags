@@ -2021,7 +2021,14 @@
     },
     {
       "id": "minecraft:chorus_plant",
-      "states": {}
+      "states": {
+        "minecraft:connection_west": false,
+        "minecraft:connection_up": false,
+        "minecraft:connection_south": false,
+        "minecraft:connection_east": false,
+        "minecraft:connection_down": false,
+        "minecraft:connection_north": false
+      }
     },
     {
       "id": "minecraft:cocoa",
@@ -5085,6 +5092,20 @@
     {
       "id": "minecraft:ice",
       "states": {}
+    },
+    {
+      "id": "minecraft:ice_crystal",
+      "states": {
+        "minecraft:block_face": "up"
+      }
+    },
+    {
+      "id": "minecraft:icicle",
+      "states": {
+        "dripstone_thickness": "tip",
+        "hanging": true,
+        "attached_bit": false
+      }
     },
     {
       "id": "minecraft:infested_chiseled_stone_bricks",
