@@ -861,6 +861,9 @@
     "minecraft:warped_planks",
     "minecraft:warped_stem"
   ],
+  "minecraft:sulfur_cube_archetype_cold": [
+    "minecraft:blue_ice"
+  ],
   "minecraft:sulfur_cube_archetype_explosive": [
     "minecraft:tnt"
   ],
@@ -893,11 +896,11 @@
     "minecraft:wet_sponge"
   ],
   "minecraft:sulfur_cube_archetype_fast_sliding": [
-    "minecraft:blue_ice",
+    "minecraft:chiseled_packed_ice",
     "minecraft:packed_ice",
     "minecraft:packed_ice_bricks",
-    "minecraft:packed_ice_bricks_chiseled",
-    "minecraft:snow"
+    "minecraft:snow",
+    "minecraft:snow_bricks"
   ],
   "minecraft:sulfur_cube_archetype_high_resistance": [
     "minecraft:soul_sand",

@@ -930,7 +930,7 @@
       }
     },
     {
-      "id": "minecraft:packed_ice_bricks_stairs",
+      "id": "minecraft:packed_ice_brick_stairs",
       "states": {
         "minecraft:corner": "none",
         "weirdo_direction": 0,
@@ -1155,6 +1155,14 @@
     },
     {
       "id": "minecraft:smooth_sandstone_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:snow_brick_stairs",
       "states": {
         "minecraft:corner": "none",
         "weirdo_direction": 0,
@@ -4032,6 +4040,10 @@
       "states": {}
     },
     {
+      "id": "minecraft:chiseled_packed_ice",
+      "states": {}
+    },
+    {
       "id": "minecraft:chiseled_polished_blackstone",
       "states": {}
     },
@@ -5839,27 +5851,19 @@
       "states": {}
     },
     {
-      "id": "minecraft:packed_ice_bricks",
-      "states": {}
-    },
-    {
-      "id": "minecraft:packed_ice_bricks_chiseled",
-      "states": {}
-    },
-    {
-      "id": "minecraft:packed_ice_bricks_double_slab",
+      "id": "minecraft:packed_ice_brick_double_slab",
       "states": {
         "minecraft:vertical_half": "bottom"
       }
     },
     {
-      "id": "minecraft:packed_ice_bricks_slab",
+      "id": "minecraft:packed_ice_brick_slab",
       "states": {
         "minecraft:vertical_half": "bottom"
       }
     },
     {
-      "id": "minecraft:packed_ice_bricks_stairs",
+      "id": "minecraft:packed_ice_brick_stairs",
       "states": {
         "minecraft:corner": "none",
         "weirdo_direction": 0,
@@ -5867,7 +5871,7 @@
       }
     },
     {
-      "id": "minecraft:packed_ice_bricks_wall",
+      "id": "minecraft:packed_ice_brick_wall",
       "states": {
         "wall_connection_type_south": "none",
         "wall_connection_type_east": "none",
@@ -5875,6 +5879,10 @@
         "wall_connection_type_west": "none",
         "wall_post_bit": false
       }
+    },
+    {
+      "id": "minecraft:packed_ice_bricks",
+      "states": {}
     },
     {
       "id": "minecraft:packed_mud",
@@ -8189,6 +8197,40 @@
     },
     {
       "id": "minecraft:snow",
+      "states": {}
+    },
+    {
+      "id": "minecraft:snow_brick_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:snow_brick_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:snow_brick_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:snow_brick_wall",
+      "states": {
+        "wall_connection_type_south": "none",
+        "wall_connection_type_east": "none",
+        "wall_connection_type_north": "none",
+        "wall_connection_type_west": "none",
+        "wall_post_bit": false
+      }
+    },
+    {
+      "id": "minecraft:snow_bricks",
       "states": {}
     },
     {
