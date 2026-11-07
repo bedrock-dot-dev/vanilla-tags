@@ -618,6 +618,14 @@
       }
     },
     {
+      "id": "minecraft:calcite_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
       "id": "minecraft:cherry_stairs",
       "states": {
         "minecraft:corner": "none",
@@ -979,6 +987,22 @@
     },
     {
       "id": "minecraft:polished_blackstone_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_calcite_brick_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_calcite_stairs",
       "states": {
         "minecraft:corner": "none",
         "weirdo_direction": 0,
@@ -4005,6 +4029,42 @@
       "states": {}
     },
     {
+      "id": "minecraft:calcite_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:calcite_pillar",
+      "states": {
+        "pillar_axis": "y"
+      }
+    },
+    {
+      "id": "minecraft:calcite_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:calcite_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:calcite_wall",
+      "states": {
+        "wall_connection_type_south": "none",
+        "wall_connection_type_east": "none",
+        "wall_connection_type_north": "none",
+        "wall_connection_type_west": "none",
+        "wall_post_bit": false
+      }
+    },
+    {
       "id": "minecraft:cauldron",
       "states": {
         "cauldron_liquid": "water",
@@ -4069,6 +4129,10 @@
       "states": {
         "sand_stone_type": "heiroglyphs"
       }
+    },
+    {
+      "id": "minecraft:chiseled_soulshale",
+      "states": {}
     },
     {
       "id": "minecraft:chiseled_stone_bricks",
@@ -6080,6 +6144,74 @@
     },
     {
       "id": "minecraft:polished_blackstone_wall",
+      "states": {
+        "wall_connection_type_south": "none",
+        "wall_connection_type_east": "none",
+        "wall_connection_type_north": "none",
+        "wall_connection_type_west": "none",
+        "wall_post_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_calcite",
+      "states": {}
+    },
+    {
+      "id": "minecraft:polished_calcite_brick_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:polished_calcite_brick_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:polished_calcite_brick_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_calcite_brick_wall",
+      "states": {
+        "wall_connection_type_south": "none",
+        "wall_connection_type_east": "none",
+        "wall_connection_type_north": "none",
+        "wall_connection_type_west": "none",
+        "wall_post_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_calcite_bricks",
+      "states": {}
+    },
+    {
+      "id": "minecraft:polished_calcite_double_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:polished_calcite_slab",
+      "states": {
+        "minecraft:vertical_half": "bottom"
+      }
+    },
+    {
+      "id": "minecraft:polished_calcite_stairs",
+      "states": {
+        "minecraft:corner": "none",
+        "weirdo_direction": 0,
+        "upside_down_bit": false
+      }
+    },
+    {
+      "id": "minecraft:polished_calcite_wall",
       "states": {
         "wall_connection_type_south": "none",
         "wall_connection_type_east": "none",
